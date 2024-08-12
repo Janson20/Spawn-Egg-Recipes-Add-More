@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "ser",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.CHICKEN"
+      },
+      {
+        "value": "Items.CHICKEN"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.CHICKEN"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "Items.CHICKEN"
+      },
+      {
+        "value": "Items.WHEAT_SEEDS"
+      },
+      {
+        "value": "Items.CHICKEN"
+      },
+      {
+        "value": "Items.CHICKEN"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.SPAWN_EGG#93"
+    },
+    "name": "chicken",
+    "namespace": "mod"
+  }
+}

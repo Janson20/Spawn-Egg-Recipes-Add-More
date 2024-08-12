@@ -1,0 +1,78 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 300,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_inapproachable",
+          "text": {
+            "fixedValue": "Inapproachable"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 176,
+          "y": 50
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_effect_of_inapproachable",
+          "text": "Effect of Inapproachable",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Well"
+          },
+          "width": 150,
+          "height": 20,
+          "x": 139,
+          "y": 66
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_get_xp",
+          "text": "Get XP",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Best"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 139,
+          "y": 88
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "text something...",
+          "name": "textfield",
+          "width": 167,
+          "height": 20,
+          "x": 130,
+          "y": 179
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

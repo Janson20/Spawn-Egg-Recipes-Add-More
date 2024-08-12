@@ -1,0 +1,8 @@
+JVM Args:          
+Run Args:          "--input", "D:\No_Chinese_Coding\Spawn_egg_recipes\build\neoForm\neoFormJoined1.20.6-20240429.153634\steps\merge\output.jar", "--output", "D:\No_Chinese_Coding\Spawn_egg_recipes\build\neoForm\neoFormJoined1.20.6-20240429.153634\steps\rename\output.jar", "--map", "D:\No_Chinese_Coding\Spawn_egg_recipes\build\neoForm\neoFormJoined1.20.6-20240429.153634\steps\mergeMappings\output.jar", "--cfg", "D:\No_Chinese_Coding\Spawn_egg_recipes\build\neoForm\neoFormJoined1.20.6-20240429.153634\steps\listLibraries\libraries.txt", "--ann-fix", "--ids-fix", "--src-fix", "--record-fix", "--unfinal-params"
+JVM:               D:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+Classpath:         C:\Users\liuji\.mcreator\gradle\caches\modules-2\files-2.1\net.neoforged\AutoRenamingTool\2.0.3\d9890c71b4366f886c2b1006782043a6a6816eb6\AutoRenamingTool-2.0.3-all.jar
+Working Dir:       D:\No_Chinese_Coding\Spawn_egg_recipes\build\neoForm\neoFormJoined1.20.6-20240429.153634\steps\rename
+Main Class:        net.neoforged.art.Main
+Program log file:  D:\No_Chinese_Coding\Spawn_egg_recipes\build\neoForm\neoFormJoined1.20.6-20240429.153634\steps\rename\log.log
+Output file:       D:\No_Chinese_Coding\Spawn_egg_recipes\build\neoForm\neoFormJoined1.20.6-20240429.153634\steps\rename\output.jar

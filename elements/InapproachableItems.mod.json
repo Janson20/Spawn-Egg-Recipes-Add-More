@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "Inapproachable Items",
+    "icon": {
+      "value": "Items.TOTEM_OF_UNDYING"
+    },
+    "showSearch": true
+  }
+}

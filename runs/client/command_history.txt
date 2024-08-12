@@ -1,0 +1,41 @@
+/give @s minecraft:command_block
+/time set 0
+/spawnpoint
+/spawn_armor_trims
+/kill @e
+/spawn_armor_trims
+/effect give Dev spawn_egg_recipes:inapproachable
+/time set 0
+/time set midnight
+/time set 0
+/tp ~ 0 ~
+/tp ~ -10 ~
+/tp ~ -20 ~
+/kill @e[type=!#minecraft:player]
+/time set 0
+/tp ~ -20 ~
+/spawn_armor_trims
+/tp ~ -20 ~
+/give @p minecraft:cod{display:{Name:'["寰宇支配之张死鱼"]',Lore:["{\"text\":\"表面上普普通通\",\"color\":\"yellow\"}","{\"text\":\"但是蕴含着无(没）穷（有）的力量\",\"color\":\"yellow\"}"]},AttributeModifiers:[{ Slot:"mainhand",AttributeName:"generic.attack_damage",Amount:32768d,Opera
+/summon minecraft:area_effect_cloud 2.68 -63.00 -22.71
+/tp ~ -20 ~
+/time set 0
+/fill ~ ~ ~ ~10 ~2 ~10 tnt
+/tp @e @s
+/tp ~ 0 ~
+/tp @e @s
+/tp ~ 0 ~
+/tp @e @s
+/tp ~ 0 ~
+/tp ~ -20 ~
+/tp ~ ~-20 ~
+/time set 0
+/tp @e Dev
+/time set 0
+/effect give @e minecraft:instant_damage infinite 255
+/effect give @e minecraft:instant_damage infinite
+/effect give @e spawn_egg_recipes:inapproachable infinite
+/time set 0
+/tick freeze
+/tick unfreeze
+/time set 0

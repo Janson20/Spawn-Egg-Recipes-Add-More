@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ser",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    "aca",
+    "daa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:mutton"
+    },
+    "b": {
+      "tag": "minecraft:wool"
+    },
+    "c": {
+      "item": "minecraft:diamond_block"
+    },
+    "d": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "id": "minecraft:sheep_spawn_egg",
+    "count": 4
+  }
+}

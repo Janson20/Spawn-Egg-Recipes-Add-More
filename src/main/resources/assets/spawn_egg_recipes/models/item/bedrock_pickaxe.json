@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "spawn_egg_recipes:item/bedrock_pickaxe"
+  }
+}

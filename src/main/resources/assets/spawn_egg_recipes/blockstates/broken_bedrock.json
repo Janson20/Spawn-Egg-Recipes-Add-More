@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "spawn_egg_recipes:block/broken_bedrock"
+    }
+  }
+}

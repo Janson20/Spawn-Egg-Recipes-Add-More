@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "ser",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BrokenBedrock"
+      },
+      {
+        "value": "CUSTOM:BrokenBedrock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BrokenBedrock"
+      },
+      {
+        "value": "CUSTOM:BrokenBedrock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.BEDROCK"
+    },
+    "name": "bedrock_explosion",
+    "namespace": "mod"
+  }
+}

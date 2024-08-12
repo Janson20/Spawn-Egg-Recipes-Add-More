@@ -1,0 +1,8 @@
+JVM Args:          "-Xmx4G"
+Run Args:          "-log=info", "--decompile-inner", "--remove-bridge", "--decompile-generics", "--ascii-strings", "--remove-synthetic", "--include-classpath", "--variable-renaming=jad", "--ignore-invalid-bytecode", "--bytecode-source-mapping", "--dump-code-lines", "--indent-string=    ", "-cfg", "D:\No_Chinese_Coding\Spawn_egg_recipes\build\neoForm\neoFormJoined1.20.6-20240429.153634\steps\listLibraries\libraries.txt", "D:\No_Chinese_Coding\Spawn_egg_recipes\build\neoForm\neoFormJoined1.20.6-20240429.153634\steps\rename\output.jar", "D:\No_Chinese_Coding\Spawn_egg_recipes\build\neoForm\neoFormJoined1.20.6-20240429.153634\steps\decompile\output.jar"
+JVM:               D:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+Classpath:         C:\Users\liuji\.mcreator\gradle\caches\modules-2\files-2.1\org.vineflower\vineflower\1.10.1\4f48c5947b21f9ebc743e7c80215ee839d3dc668\vineflower-1.10.1.jar
+Working Dir:       D:\No_Chinese_Coding\Spawn_egg_recipes\build\neoForm\neoFormJoined1.20.6-20240429.153634\steps\decompile
+Main Class:        org.jetbrains.java.decompiler.main.decompiler.ConsoleDecompiler
+Program log file:  D:\No_Chinese_Coding\Spawn_egg_recipes\build\neoForm\neoFormJoined1.20.6-20240429.153634\steps\decompile\log.log
+Output file:       D:\No_Chinese_Coding\Spawn_egg_recipes\build\neoForm\neoFormJoined1.20.6-20240429.153634\steps\decompile\output.jar

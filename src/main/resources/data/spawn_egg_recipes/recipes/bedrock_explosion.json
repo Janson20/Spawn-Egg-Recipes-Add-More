@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "ser",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "spawn_egg_recipes:broken_bedrock"
+    },
+    {
+      "item": "spawn_egg_recipes:broken_bedrock"
+    },
+    {
+      "item": "spawn_egg_recipes:broken_bedrock"
+    },
+    {
+      "item": "spawn_egg_recipes:broken_bedrock"
+    }
+  ],
+  "result": {
+    "id": "minecraft:bedrock",
+    "count": 1
+  }
+}

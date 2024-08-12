@@ -1,0 +1,65 @@
+{
+  "_fv": 66,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "minecraft:totem_of_undying",
+    "customModelName": "Ranged item",
+    "customProperties": {},
+    "states": [],
+    "name": "Totem Of Inapproachable",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:InapproachableItems"
+      }
+    ],
+    "stackSize": 64,
+    "enchantability": 15,
+    "useDuration": 32,
+    "toolType": 2.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": true,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 18000.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 128,
+    "onEntityHitWith": {
+      "name": "InapproachableArrowDanSheWuJiZhongFangKuaiShi"
+    },
+    "onItemInInventoryTick": {
+      "name": "Well"
+    },
+    "onEntitySwing": {
+      "name": "Invinci"
+    },
+    "enableRanged": true,
+    "shootConstantly": true,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:InapproachableArrow"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 2.0,
+    "eatResultItem": {
+      "value": "Items.TOTEM_OF_UNDYING"
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "eat"
+  }
+}

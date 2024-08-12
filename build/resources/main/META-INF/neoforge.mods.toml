@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="spawn_egg_recipes"
+version="1.0.7"
+displayName="Spawn Egg Recipes Add More"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="Janson, MCreator"
+description="Makes spawn eggs and mob spawners craftable.And more interesting things..."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.spawn_egg_recipes]]
+    modId="neoforge"
+    type="required"
+    versionRange="[20.6.117,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.spawn_egg_recipes]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.6]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

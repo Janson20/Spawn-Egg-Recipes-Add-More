@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ser",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    "aca",
+    "baa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:porkchop"
+    },
+    "b": {
+      "item": "minecraft:carrot"
+    },
+    "c": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "id": "minecraft:pig_spawn_egg",
+    "count": 4
+  }
+}

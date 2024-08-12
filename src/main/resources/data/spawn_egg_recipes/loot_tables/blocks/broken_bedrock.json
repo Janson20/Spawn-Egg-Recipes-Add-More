@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "spawn_egg_recipes:blocks/broken_bedrock",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spawn_egg_recipes:broken_bedrock"
+        }
+      ]
+    }
+  ]
+}

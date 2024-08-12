@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "spawn_egg_recipes:block/broken_bedrock",
+    "up": "spawn_egg_recipes:block/broken_bedrock",
+    "north": "spawn_egg_recipes:block/broken_bedrock",
+    "east": "spawn_egg_recipes:block/broken_bedrock",
+    "south": "spawn_egg_recipes:block/broken_bedrock",
+    "west": "spawn_egg_recipes:block/broken_bedrock",
+    "particle": "spawn_egg_recipes:block/broken_bedrock"
+  },
+  "render_type": "solid"
+}

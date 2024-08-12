@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "spawn_egg_recipes:broken_bedrock",
+  "step": "underground_ores"
+}

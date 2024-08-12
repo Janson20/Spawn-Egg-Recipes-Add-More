@@ -1,0 +1,21 @@
+{
+  "gui.spawn_egg_recipes.well_done.button_get_xp": "Get XP",
+  "item.spawn_egg_recipes.bedrock_sword": "Bedrock Sword",
+  "gui.spawn_egg_recipes.well_done.label_inapproachable": "Inapproachable",
+  "effect.spawn_egg_recipes.inapproachable": "Inapproachable",
+  "block.spawn_egg_recipes.broken_bedrock": "Broken Bedrock",
+  "item.spawn_egg_recipes.bedrock_pickaxe": "Bedrock Pickaxe",
+  "gui.spawn_egg_recipes.well_done.textfield": "text something...",
+  "item.spawn_egg_recipes.totem_of_inapproachable": "Totem Of Inapproachable",
+  "death.attack.nothing": "%1$s died",
+  "death.attack.nothing.item": "%1$s was killed by %2$s using %3$s and became nothing",
+  "item.minecraft.splash_potion.effect.inapproachability": "Splash Potion of Inapproachability",
+  "gui.spawn_egg_recipes.well_done.button_effect_of_inapproachable": "Effect of Inapproachable",
+  "item_group.spawn_egg_recipes.inapproachable_items": "Inapproachable Items",
+  "death.attack.nothing.player": "%1$s died whilst trying to escape %2$s and became nothing",
+  "entity.spawn_egg_recipes.boss": "Boss",
+  "item.minecraft.potion.effect.inapproachability": "Potion of Inapproachability",
+  "item.spawn_egg_recipes.boss_spawn_egg": "Boss Spawn Egg",
+  "item.minecraft.lingering_potion.effect.inapproachability": "Lingering Potion of Inapproachability",
+  "item.minecraft.tipped_arrow.effect.inapproachability": "Arrow of Inapproachability"
+}

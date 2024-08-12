@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Blocks.AIR"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": true,
+    "power": 5.0,
+    "damage": 100.0,
+    "knockback": 500,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsEntity": {
+      "name": "InapproachableArrowDanSheWuJiZhongFangKuaiShi"
+    }
+  }
+}
