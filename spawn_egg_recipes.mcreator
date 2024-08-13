@@ -428,6 +428,30 @@
           "src/main/resources/data/spawn_egg_recipes/recipes/chicken.json"
         ]
       }
+    },
+    {
+      "name": "Wolf",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/wolf.json"
+        ]
+      }
+    },
+    {
+      "name": "Cat",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/cat.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -491,8 +515,8 @@
   },
   "workspaceSettings": {
     "modid": "spawn_egg_recipes",
-    "modName": "Spawn Egg Recipes Add More",
-    "version": "1.0.7",
+    "modName": "Spawn Egg Recipes And More",
+    "version": "1.0.8",
     "description": "Makes spawn eggs and mob spawners craftable.And more interesting things...",
     "author": "Janson, MCreator",
     "websiteURL": "https://mcreator.net",
