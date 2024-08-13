@@ -1,5 +1,5 @@
  # 刷怪蛋合成配方及更多
- # Spawn-Egg-Recipes-Add-More
+ # Spawn-Egg-Recipes-And-More
 这个模组为《我的世界》带来了一系列新颖而有趣的变化，不仅增加了游戏的可玩性，还为玩家提供了全新的探索和创造方式。
 ### 刷怪蛋模组
 
