@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "ser",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.ARROW"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.BOW"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.BONE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.SPAWN_EGG#51"
+    },
+    "name": "skeleton",
+    "namespace": "mod"
+  }
+}

@@ -452,6 +452,30 @@
           "src/main/resources/data/spawn_egg_recipes/recipes/cat.json"
         ]
       }
+    },
+    {
+      "name": "Zombie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/zombie.json"
+        ]
+      }
+    },
+    {
+      "name": "Skeleton",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeleton",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/skeleton.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -516,7 +540,7 @@
   "workspaceSettings": {
     "modid": "spawn_egg_recipes",
     "modName": "Spawn Egg Recipes And More",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "Makes spawn eggs and mob spawners craftable.And more interesting things...",
     "author": "Janson, MCreator",
     "websiteURL": "https://mcreator.net",
