@@ -1,5 +1,4 @@
  # 刷怪蛋合成配方及更多
- # Spawn-Egg-Recipes-And-More
 这个模组为《我的世界》带来了一系列新颖而有趣的变化，不仅增加了游戏的可玩性，还为玩家提供了全新的探索和创造方式。
 ### 刷怪蛋模组
 
@@ -18,6 +17,8 @@
 #### 总结
 
 这个模组通过增加新的合成配方、改变基岩的性质和功能，以及对工具系统的创新扩展，为《我的世界》带来了全新的游戏体验。玩家将能够在更加丰富多样的环境中探索和建造，同时也能够利用新工具和材料来提升自己的生存和创造力。
+
+# Spawn-Egg-Recipes-And-More
 This mod brings a new and interesting twist to Minecraft, not only increasing the playability of the game, but also giving players a whole new way to explore and create.
 ### Spawn egg mod
 
