@@ -476,6 +476,87 @@
           "src/main/resources/data/spawn_egg_recipes/recipes/skeleton.json"
         ]
       }
+    },
+    {
+      "name": "BedrockShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bedrock_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jason/spawneggrecipes/item/BedrockShovelItem.java",
+          "src/main/resources/assets/spawn_egg_recipes/models/item/bedrock_shovel.json"
+        ]
+      },
+      "path": "~/Inapproachable"
+    },
+    {
+      "name": "BedrockShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/bedrock_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Inapproachable"
+    },
+    {
+      "name": "BedrockAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bedrock_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jason/spawneggrecipes/item/BedrockAxeItem.java",
+          "src/main/resources/assets/spawn_egg_recipes/models/item/bedrock_axe.json"
+        ]
+      },
+      "path": "~/Inapproachable"
+    },
+    {
+      "name": "BedrockAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/bedrock_axe_recipe.json"
+        ]
+      },
+      "path": "~/Inapproachable"
+    },
+    {
+      "name": "BedrockHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/jason/spawneggrecipes/item/BedrockHoeItem.java",
+          "src/main/resources/assets/spawn_egg_recipes/models/item/bedrock_hoe.json"
+        ]
+      },
+      "path": "~/Inapproachable"
+    },
+    {
+      "name": "BedrockHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/bedrock_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Inapproachable"
     }
   ],
   "variable_elements": [
@@ -494,6 +575,9 @@
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:BrokenBedrock"
     ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:BedrockHoe"
+    ],
     "ENTITIES:minecraft:undead": [
       "~CUSTOM:Boss"
     ],
@@ -502,11 +586,18 @@
     ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:BedrockSword"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:BedrockShovel"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:BedrockAxe"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.spawn_egg_recipes.bedrock_shovel": "Bedrock Shovel",
       "gui.spawn_egg_recipes.well_done.button_get_xp": "Get XP",
       "item.spawn_egg_recipes.bedrock_sword": "Bedrock Sword",
       "gui.spawn_egg_recipes.well_done.label_inapproachable": "Inapproachable",
@@ -517,6 +608,7 @@
       "item.spawn_egg_recipes.totem_of_inapproachable": "Totem Of Inapproachable",
       "death.attack.nothing": "%1$s died",
       "death.attack.nothing.item": "%1$s was killed by %2$s using %3$s and became nothing",
+      "item.spawn_egg_recipes.bedrock_hoe": "Bedrock Hoe",
       "item.minecraft.splash_potion.effect.inapproachability": "Splash Potion of Inapproachability",
       "gui.spawn_egg_recipes.well_done.button_effect_of_inapproachable": "Effect of Inapproachable",
       "item_group.spawn_egg_recipes.inapproachable_items": "Inapproachable Items",
@@ -525,7 +617,8 @@
       "item.minecraft.potion.effect.inapproachability": "Potion of Inapproachability",
       "item.spawn_egg_recipes.boss_spawn_egg": "Boss Spawn Egg",
       "item.minecraft.lingering_potion.effect.inapproachability": "Lingering Potion of Inapproachability",
-      "item.minecraft.tipped_arrow.effect.inapproachability": "Arrow of Inapproachability"
+      "item.minecraft.tipped_arrow.effect.inapproachability": "Arrow of Inapproachability",
+      "item.spawn_egg_recipes.bedrock_axe": "Bedrock Axe"
     }
   },
   "foldersRoot": {
@@ -540,7 +633,7 @@
   "workspaceSettings": {
     "modid": "spawn_egg_recipes",
     "modName": "Spawn Egg Recipes And More",
-    "version": "1.0.9",
+    "version": "1.1.0",
     "description": "Makes spawn eggs and mob spawners craftable.And more interesting things...",
     "author": "Janson, MCreator",
     "websiteURL": "https://mcreator.net",

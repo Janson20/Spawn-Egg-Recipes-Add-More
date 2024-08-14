@@ -38,6 +38,9 @@ public class SpawnEggRecipesModTabs {
 			tabData.accept(SpawnEggRecipesModBlocks.BROKEN_BEDROCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(SpawnEggRecipesModItems.BEDROCK_PICKAXE.get());
+			tabData.accept(SpawnEggRecipesModItems.BEDROCK_SHOVEL.get());
+			tabData.accept(SpawnEggRecipesModItems.BEDROCK_AXE.get());
+			tabData.accept(SpawnEggRecipesModItems.BEDROCK_HOE.get());
 		}
 	}
 }

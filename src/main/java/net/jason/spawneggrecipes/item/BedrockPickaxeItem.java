@@ -55,7 +55,7 @@ public class BedrockPickaxeItem extends PickaxeItem {
 	};
 
 	public BedrockPickaxeItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 665f, -3f)).fireResistant());
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 1f/0, -3f)).fireResistant());
 	}
 
 	@SubscribeEvent

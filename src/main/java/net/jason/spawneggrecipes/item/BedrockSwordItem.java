@@ -31,7 +31,7 @@ public class BedrockSwordItem extends SwordItem {
 
 		@Override
 		public float getSpeed() {
-			return 12f;
+			return 1f/0;
 		}
 
 		@Override

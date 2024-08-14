@@ -1,0 +1,14 @@
+--- a/net/minecraft/advancements/critereon/ItemEnchantmentsPredicate.java
++++ b/net/minecraft/advancements/critereon/ItemEnchantmentsPredicate.java
+@@ -48,6 +48,11 @@
+             super(p_333967_);
+         }
+ 
++        @Override // Neo: use getAllEnchantments for enchantments
++        public boolean matches(ItemStack p_333958_) {
++            return matches(p_333958_, p_333958_.getAllEnchantments());
++        }
++
+         @Override
+         public DataComponentType<ItemEnchantments> componentType() {
+             return DataComponents.ENCHANTMENTS;

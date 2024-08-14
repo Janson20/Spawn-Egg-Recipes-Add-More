@@ -15,7 +15,10 @@ import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.jason.spawneggrecipes.item.TotemOfInapproachableItem;
 import net.jason.spawneggrecipes.item.BedrockSwordItem;
+import net.jason.spawneggrecipes.item.BedrockShovelItem;
 import net.jason.spawneggrecipes.item.BedrockPickaxeItem;
+import net.jason.spawneggrecipes.item.BedrockHoeItem;
+import net.jason.spawneggrecipes.item.BedrockAxeItem;
 import net.jason.spawneggrecipes.SpawnEggRecipesMod;
 
 public class SpawnEggRecipesModItems {
@@ -25,6 +28,9 @@ public class SpawnEggRecipesModItems {
 	public static final DeferredHolder<Item, Item> BROKEN_BEDROCK = block(SpawnEggRecipesModBlocks.BROKEN_BEDROCK);
 	public static final DeferredHolder<Item, Item> BEDROCK_PICKAXE = REGISTRY.register("bedrock_pickaxe", BedrockPickaxeItem::new);
 	public static final DeferredHolder<Item, Item> BEDROCK_SWORD = REGISTRY.register("bedrock_sword", BedrockSwordItem::new);
+	public static final DeferredHolder<Item, Item> BEDROCK_SHOVEL = REGISTRY.register("bedrock_shovel", BedrockShovelItem::new);
+	public static final DeferredHolder<Item, Item> BEDROCK_AXE = REGISTRY.register("bedrock_axe", BedrockAxeItem::new);
+	public static final DeferredHolder<Item, Item> BEDROCK_HOE = REGISTRY.register("bedrock_hoe", BedrockHoeItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
