@@ -96,7 +96,7 @@ public class SpawnEggRecipesModVariables {
 
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "spawn_egg_recipes_mapvars";
-		public double difficulty = 1.0;
+		public double difficulty = 10.0;
 
 		public static MapVariables load(CompoundTag tag, HolderLookup.Provider lookupProvider) {
 			MapVariables data = new MapVariables();

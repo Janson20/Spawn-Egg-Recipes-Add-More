@@ -15,6 +15,9 @@
     "knockback": 500,
     "entityModel": "Default",
     "customModelTexture": "",
+    "onHitsBlock": {
+      "name": "InapproachableArrowDanSheWuJiZhongFangKuaiShi"
+    },
     "onHitsEntity": {
       "name": "InapproachableArrowDanSheWuJiZhongFangKuaiShi"
     }

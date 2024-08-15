@@ -557,6 +557,42 @@
         ]
       },
       "path": "~/Inapproachable"
+    },
+    {
+      "name": "Spider",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/spider.json"
+        ]
+      }
+    },
+    {
+      "name": "Creeper",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/creeper.json"
+        ]
+      }
+    },
+    {
+      "name": "Enderman",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderman",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/enderman.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -564,7 +600,7 @@
       "name": "difficulty",
       "type": "number",
       "scope": "map",
-      "value": "1.0"
+      "value": "10.0"
     }
   ],
   "sound_elements": [],
@@ -606,13 +642,13 @@
       "item.spawn_egg_recipes.bedrock_pickaxe": "Bedrock Pickaxe",
       "gui.spawn_egg_recipes.well_done.textfield": "text something...",
       "item.spawn_egg_recipes.totem_of_inapproachable": "Totem Of Inapproachable",
-      "death.attack.nothing": "%1$s died",
-      "death.attack.nothing.item": "%1$s was killed by %2$s using %3$s and became nothing",
+      "death.attack.nothing": "%1$s became nothing",
+      "death.attack.nothing.item": "%1$s became nothing by %2$s using %3$s",
       "item.spawn_egg_recipes.bedrock_hoe": "Bedrock Hoe",
       "item.minecraft.splash_potion.effect.inapproachability": "Splash Potion of Inapproachability",
       "gui.spawn_egg_recipes.well_done.button_effect_of_inapproachable": "Effect of Inapproachable",
       "item_group.spawn_egg_recipes.inapproachable_items": "Inapproachable Items",
-      "death.attack.nothing.player": "%1$s died whilst trying to escape %2$s and became nothing",
+      "death.attack.nothing.player": "%1$s became nothing whilst trying to escape %2$s",
       "entity.spawn_egg_recipes.boss": "Boss",
       "item.minecraft.potion.effect.inapproachability": "Potion of Inapproachability",
       "item.spawn_egg_recipes.boss_spawn_egg": "Boss Spawn Egg",
@@ -633,7 +669,7 @@
   "workspaceSettings": {
     "modid": "spawn_egg_recipes",
     "modName": "Spawn Egg Recipes And More",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Makes spawn eggs and mob spawners craftable.And more interesting things...",
     "author": "Janson, MCreator",
     "websiteURL": "https://mcreator.net",
