@@ -55,7 +55,7 @@ public class BedrockShovelItem extends ShovelItem {
 	};
 
 	public BedrockShovelItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 3f, -3f)).fireResistant());
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 1f/0, -3f)).fireResistant());
 	}
 
 	@SubscribeEvent

@@ -535,7 +535,7 @@
       "name": "BedrockHoe",
       "type": "tool",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "bedrock_hoe",
       "metadata": {
         "files": [
@@ -633,7 +633,7 @@
   "workspaceSettings": {
     "modid": "spawn_egg_recipes",
     "modName": "Spawn Egg Recipes And More",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Makes spawn eggs and mob spawners craftable.And more interesting things...",
     "author": "Janson, MCreator",
     "websiteURL": "https://mcreator.net",
