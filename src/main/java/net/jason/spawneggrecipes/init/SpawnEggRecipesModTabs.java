@@ -32,6 +32,10 @@ public class SpawnEggRecipesModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(SpawnEggRecipesModItems.BEDROCK_SWORD.get());
+			tabData.accept(SpawnEggRecipesModItems.BEDROCK_ARMOR_HELMET.get());
+			tabData.accept(SpawnEggRecipesModItems.BEDROCK_ARMOR_CHESTPLATE.get());
+			tabData.accept(SpawnEggRecipesModItems.BEDROCK_ARMOR_LEGGINGS.get());
+			tabData.accept(SpawnEggRecipesModItems.BEDROCK_ARMOR_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(SpawnEggRecipesModItems.BOSS_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

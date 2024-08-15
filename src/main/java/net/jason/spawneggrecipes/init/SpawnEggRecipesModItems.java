@@ -19,6 +19,7 @@ import net.jason.spawneggrecipes.item.BedrockShovelItem;
 import net.jason.spawneggrecipes.item.BedrockPickaxeItem;
 import net.jason.spawneggrecipes.item.BedrockHoeItem;
 import net.jason.spawneggrecipes.item.BedrockAxeItem;
+import net.jason.spawneggrecipes.item.BedrockArmorItem;
 import net.jason.spawneggrecipes.SpawnEggRecipesMod;
 
 public class SpawnEggRecipesModItems {
@@ -31,6 +32,10 @@ public class SpawnEggRecipesModItems {
 	public static final DeferredHolder<Item, Item> BEDROCK_SHOVEL = REGISTRY.register("bedrock_shovel", BedrockShovelItem::new);
 	public static final DeferredHolder<Item, Item> BEDROCK_AXE = REGISTRY.register("bedrock_axe", BedrockAxeItem::new);
 	public static final DeferredHolder<Item, Item> BEDROCK_HOE = REGISTRY.register("bedrock_hoe", BedrockHoeItem::new);
+	public static final DeferredHolder<Item, Item> BEDROCK_ARMOR_HELMET = REGISTRY.register("bedrock_armor_helmet", BedrockArmorItem.Helmet::new);
+	public static final DeferredHolder<Item, Item> BEDROCK_ARMOR_CHESTPLATE = REGISTRY.register("bedrock_armor_chestplate", BedrockArmorItem.Chestplate::new);
+	public static final DeferredHolder<Item, Item> BEDROCK_ARMOR_LEGGINGS = REGISTRY.register("bedrock_armor_leggings", BedrockArmorItem.Leggings::new);
+	public static final DeferredHolder<Item, Item> BEDROCK_ARMOR_BOOTS = REGISTRY.register("bedrock_armor_boots", BedrockArmorItem.Boots::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

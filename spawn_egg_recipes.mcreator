@@ -593,6 +593,75 @@
           "src/main/resources/data/spawn_egg_recipes/recipes/enderman.json"
         ]
       }
+    },
+    {
+      "name": "BedrockArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bedrock_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spawn_egg_recipes/models/item/bedrock_armor_helmet.json",
+          "src/main/resources/assets/spawn_egg_recipes/models/item/bedrock_armor_chestplate.json",
+          "src/main/resources/assets/spawn_egg_recipes/models/item/bedrock_armor_boots.json",
+          "src/main/java/net/jason/spawneggrecipes/item/BedrockArmorItem.java",
+          "src/main/resources/assets/spawn_egg_recipes/models/item/bedrock_armor_leggings.json"
+        ]
+      },
+      "path": "~/Inapproachable"
+    },
+    {
+      "name": "BedrockArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/bedrock_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Inapproachable"
+    },
+    {
+      "name": "BedrockArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/bedrock_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Inapproachable"
+    },
+    {
+      "name": "BedrockArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/bedrock_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Inapproachable"
+    },
+    {
+      "name": "BedrockArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/bedrock_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Inapproachable"
     }
   ],
   "variable_elements": [
@@ -605,6 +674,9 @@
   ],
   "sound_elements": [],
   "tag_elements": {
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:BedrockArmor.body"
+    ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:BedrockPickaxe"
     ],
@@ -614,46 +686,59 @@
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:BedrockHoe"
     ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:BedrockArmor.legs"
+    ],
     "ENTITIES:minecraft:undead": [
       "~CUSTOM:Boss"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:BrokenBedrock"
     ],
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:BedrockSword"
-    ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:BedrockShovel"
     ],
     "ITEMS:minecraft:axes": [
       "~CUSTOM:BedrockAxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:BedrockSword"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:BedrockArmor.helmet"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:BedrockArmor.boots"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item.spawn_egg_recipes.bedrock_shovel": "Bedrock Shovel",
+      "gui.spawn_egg_recipes.well_done.label_inapproachable": "Inapproachable",
+      "item.spawn_egg_recipes.totem_of_inapproachable": "Totem Of Inapproachable",
+      "item.minecraft.splash_potion.effect.inapproachability": "Splash Potion of Inapproachability",
+      "gui.spawn_egg_recipes.well_done.button_effect_of_inapproachable": "Effect of Inapproachable",
+      "item.spawn_egg_recipes.bedrock_armor_helmet": "Bedrock Helmet",
+      "item.spawn_egg_recipes.bedrock_armor_leggings": "Bedrock Leggings",
+      "item.minecraft.potion.effect.inapproachability": "Potion of Inapproachability",
+      "item.minecraft.tipped_arrow.effect.inapproachability": "Arrow of Inapproachability",
       "gui.spawn_egg_recipes.well_done.button_get_xp": "Get XP",
       "item.spawn_egg_recipes.bedrock_sword": "Bedrock Sword",
-      "gui.spawn_egg_recipes.well_done.label_inapproachable": "Inapproachable",
       "effect.spawn_egg_recipes.inapproachable": "Inapproachable",
       "block.spawn_egg_recipes.broken_bedrock": "Broken Bedrock",
       "item.spawn_egg_recipes.bedrock_pickaxe": "Bedrock Pickaxe",
       "gui.spawn_egg_recipes.well_done.textfield": "text something...",
-      "item.spawn_egg_recipes.totem_of_inapproachable": "Totem Of Inapproachable",
       "death.attack.nothing": "%1$s became nothing",
       "death.attack.nothing.item": "%1$s became nothing by %2$s using %3$s",
       "item.spawn_egg_recipes.bedrock_hoe": "Bedrock Hoe",
-      "item.minecraft.splash_potion.effect.inapproachability": "Splash Potion of Inapproachability",
-      "gui.spawn_egg_recipes.well_done.button_effect_of_inapproachable": "Effect of Inapproachable",
+      "item.spawn_egg_recipes.bedrock_armor_chestplate": "Bedrock Chestplate",
+      "item.spawn_egg_recipes.bedrock_armor_boots": "Bedrock Boots",
       "item_group.spawn_egg_recipes.inapproachable_items": "Inapproachable Items",
       "death.attack.nothing.player": "%1$s became nothing whilst trying to escape %2$s",
       "entity.spawn_egg_recipes.boss": "Boss",
-      "item.minecraft.potion.effect.inapproachability": "Potion of Inapproachability",
       "item.spawn_egg_recipes.boss_spawn_egg": "Boss Spawn Egg",
       "item.minecraft.lingering_potion.effect.inapproachability": "Lingering Potion of Inapproachability",
-      "item.minecraft.tipped_arrow.effect.inapproachability": "Arrow of Inapproachability",
       "item.spawn_egg_recipes.bedrock_axe": "Bedrock Axe"
     }
   },
@@ -669,7 +754,7 @@
   "workspaceSettings": {
     "modid": "spawn_egg_recipes",
     "modName": "Spawn Egg Recipes And More",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "description": "Makes spawn eggs and mob spawners craftable.And more interesting things...",
     "author": "Janson, MCreator",
     "websiteURL": "https://mcreator.net",

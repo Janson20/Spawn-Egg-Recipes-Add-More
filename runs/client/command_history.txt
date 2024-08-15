@@ -1,4 +1,3 @@
-/tp ~ 0 ~
 /tp ~ -10 ~
 /tp ~ -20 ~
 /kill @e[type=!#minecraft:player]
@@ -48,3 +47,4 @@
 /tick sprint 1d
 /tick sprint 60s
 /tick sprint stop
+/time set 0

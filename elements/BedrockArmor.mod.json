@@ -1,0 +1,104 @@
+{
+  "_fv": 66,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "bedrock_head",
+    "enableBody": true,
+    "textureBody": "bedrock_body",
+    "enableLeggings": true,
+    "textureLeggings": "bedrock_leggings",
+    "enableBoots": true,
+    "textureBoots": "bedrock_boots",
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "armorTextureFile": "bedrock",
+    "helmetName": "Bedrock Helmet",
+    "bodyName": "Bedrock Chestplate",
+    "leggingsName": "Bedrock Leggings",
+    "bootsName": "Bedrock Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "helmetGlowCondition": {
+      "fixedValue": true
+    },
+    "bodyGlowCondition": {
+      "fixedValue": true
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": true
+    },
+    "bootsGlowCondition": {
+      "fixedValue": true
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": true
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": true
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": true
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": true
+    },
+    "maxDamage": 888,
+    "damageValueHelmet": 888,
+    "damageValueBody": 888,
+    "damageValueLeggings": 888,
+    "damageValueBoots": 888,
+    "enchantability": 15,
+    "toughness": 888.0,
+    "knockbackResistance": 1.0,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.BEDROCK"
+      }
+    ]
+  }
+}
