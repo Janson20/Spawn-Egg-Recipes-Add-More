@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "ser",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.RABBIT"
+      },
+      {
+        "value": "Items.RABBIT"
+      },
+      {
+        "value": "Items.CARROT"
+      },
+      {
+        "value": "Items.RABBIT"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "Items.RABBIT"
+      },
+      {
+        "value": "Items.RABBIT_FOOT"
+      },
+      {
+        "value": "Items.RABBIT"
+      },
+      {
+        "value": "Items.RABBIT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.SPAWN_EGG#101"
+    },
+    "name": "rabbit",
+    "namespace": "mod"
+  }
+}

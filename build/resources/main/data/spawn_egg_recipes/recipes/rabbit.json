@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ser",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    "aca",
+    "daa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:rabbit"
+    },
+    "b": {
+      "item": "minecraft:carrot"
+    },
+    "c": {
+      "item": "minecraft:diamond_block"
+    },
+    "d": {
+      "item": "minecraft:rabbit_foot"
+    }
+  },
+  "result": {
+    "id": "minecraft:rabbit_spawn_egg",
+    "count": 1
+  }
+}

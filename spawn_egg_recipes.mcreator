@@ -662,6 +662,42 @@
         ]
       },
       "path": "~/Inapproachable"
+    },
+    {
+      "name": "Horse",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horse",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/horse.json"
+        ]
+      }
+    },
+    {
+      "name": "Donkey",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donkey",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/donkey.json"
+        ]
+      }
+    },
+    {
+      "name": "Rabbit",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabbit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/rabbit.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -754,7 +790,7 @@
   "workspaceSettings": {
     "modid": "spawn_egg_recipes",
     "modName": "Spawn Egg Recipes And More",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "description": "Makes spawn eggs and mob spawners craftable.And more interesting things...",
     "author": "Janson, MCreator",
     "websiteURL": "https://mcreator.net",
