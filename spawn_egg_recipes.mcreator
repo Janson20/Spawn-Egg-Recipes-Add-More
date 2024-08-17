@@ -776,6 +776,34 @@
       "item.spawn_egg_recipes.boss_spawn_egg": "Boss Spawn Egg",
       "item.minecraft.lingering_potion.effect.inapproachability": "Lingering Potion of Inapproachability",
       "item.spawn_egg_recipes.bedrock_axe": "Bedrock Axe"
+    },
+    "zh_cn": {
+      "item.spawn_egg_recipes.bedrock_shovel": "基岩锹",
+      "gui.spawn_egg_recipes.well_done.label_inapproachable": "无敌",
+      "item.spawn_egg_recipes.totem_of_inapproachable": "无敌图腾",
+      "item.minecraft.splash_potion.effect.inapproachability": "喷溅式无敌药水",
+      "gui.spawn_egg_recipes.well_done.button_effect_of_inapproachable": "无敌效果",
+      "item.spawn_egg_recipes.bedrock_armor_helmet": "基岩头盔",
+      "item.spawn_egg_recipes.bedrock_armor_leggings": "基岩护腿",
+      "item.minecraft.potion.effect.inapproachability": "无敌药水",
+      "item.minecraft.tipped_arrow.effect.inapproachability": "无敌之箭",
+      "gui.spawn_egg_recipes.well_done.button_get_xp": "获取经验",
+      "item.spawn_egg_recipes.bedrock_sword": "基岩剑",
+      "effect.spawn_egg_recipes.inapproachable": "无敌",
+      "block.spawn_egg_recipes.broken_bedrock": "破碎的基岩",
+      "item.spawn_egg_recipes.bedrock_pickaxe": "基岩镐",
+      "gui.spawn_egg_recipes.well_done.textfield": "请输入...",
+      "death.attack.nothing": "%1$s 化为虚无",
+      "death.attack.nothing.item": "%1$s 化为虚无由于 %2$s 使用 %3$s",
+      "item.spawn_egg_recipes.bedrock_hoe": "基岩锄",
+      "item.spawn_egg_recipes.bedrock_armor_chestplate": "基岩胸甲",
+      "item.spawn_egg_recipes.bedrock_armor_boots": "基岩靴子",
+      "item_group.spawn_egg_recipes.inapproachable_items": "无敌物品",
+      "death.attack.nothing.player": "%1$s 在试图逃脱 %2$s 时化为虚无",
+      "entity.spawn_egg_recipes.boss": "Boss",
+      "item.spawn_egg_recipes.boss_spawn_egg": "Boss 刷怪蛋",
+      "item.minecraft.lingering_potion.effect.inapproachability": "滞留型无敌药水",
+      "item.spawn_egg_recipes.bedrock_axe": "基岩斧"
     }
   },
   "foldersRoot": {
@@ -790,7 +818,7 @@
   "workspaceSettings": {
     "modid": "spawn_egg_recipes",
     "modName": "Spawn Egg Recipes And More",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "description": "Makes spawn eggs and mob spawners craftable.And more interesting things...",
     "author": "Janson, MCreator",
     "websiteURL": "https://mcreator.net",
