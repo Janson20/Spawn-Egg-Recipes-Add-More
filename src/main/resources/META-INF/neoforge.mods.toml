@@ -4,7 +4,7 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="spawn_egg_recipes"
-version="1.1.6"
+version="1.1.7"
 displayName="Spawn Egg Recipes And More"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
@@ -31,6 +31,9 @@ description="Makes spawn eggs and mob spawners craftable.And more interesting th
 
 
 
+
+[[mixins]]
+    config="mixins.spawn_egg_recipes.json"
 
 # Start of user code block dependencies configuration
 # End of user code block dependencies configuration

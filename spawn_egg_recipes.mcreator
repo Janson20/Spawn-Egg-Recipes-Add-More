@@ -734,6 +734,42 @@
           "src/main/resources/data/spawn_egg_recipes/recipes/turtle.json"
         ]
       }
+    },
+    {
+      "name": "Slime",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/slime.json"
+        ]
+      }
+    },
+    {
+      "name": "Witch",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/witch.json"
+        ]
+      }
+    },
+    {
+      "name": "Phantom",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phantom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/phantom.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -854,7 +890,7 @@
   "workspaceSettings": {
     "modid": "spawn_egg_recipes",
     "modName": "Spawn Egg Recipes And More",
-    "version": "1.1.6",
+    "version": "1.1.7",
     "description": "Makes spawn eggs and mob spawners craftable.And more interesting things...",
     "author": "Janson, MCreator",
     "websiteURL": "https://mcreator.net",

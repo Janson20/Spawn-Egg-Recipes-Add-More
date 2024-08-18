@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ser",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "acd",
+    "eed"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:nether_wart"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "minecraft:diamond_block"
+    },
+    "d": {
+      "item": "minecraft:gunpowder"
+    },
+    "e": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "id": "minecraft:witch_spawn_egg",
+    "count": 4
+  }
+}
