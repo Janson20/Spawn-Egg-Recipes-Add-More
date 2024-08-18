@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "ser",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.SCUTE"
+      },
+      {
+        "value": "Items.SCUTE"
+      },
+      {
+        "value": "Items.SCUTE"
+      },
+      {
+        "value": "Items.SCUTE"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "Items.SCUTE"
+      },
+      {
+        "value": "Items.SCUTE"
+      },
+      {
+        "value": "Items.SCUTE"
+      },
+      {
+        "value": "Items.SCUTE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.TURTLE_SPAWN_EGG"
+    },
+    "name": "turtle",
+    "namespace": "mod"
+  }
+}
