@@ -770,6 +770,42 @@
           "src/main/resources/data/spawn_egg_recipes/recipes/phantom.json"
         ]
       }
+    },
+    {
+      "name": "Squid",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squid",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/squid.json"
+        ]
+      }
+    },
+    {
+      "name": "GlowSwuid",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glow_swuid",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/glow_swuid.json"
+        ]
+      }
+    },
+    {
+      "name": "WanderingTrader",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wandering_trader",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spawn_egg_recipes/recipes/wandering_trader.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -890,7 +926,7 @@
   "workspaceSettings": {
     "modid": "spawn_egg_recipes",
     "modName": "Spawn Egg Recipes And More",
-    "version": "1.1.7",
+    "version": "1.1.8",
     "description": "Makes spawn eggs and mob spawners craftable.And more interesting things...",
     "author": "Janson, MCreator",
     "websiteURL": "https://mcreator.net",

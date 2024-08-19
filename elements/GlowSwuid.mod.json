@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "ser",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.GLOW_INK_SAC"
+      },
+      {
+        "value": "Items.GLOW_INK_SAC"
+      },
+      {
+        "value": "Items.GLOW_INK_SAC"
+      },
+      {
+        "value": "Items.GLOW_INK_SAC"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "Items.GLOW_INK_SAC"
+      },
+      {
+        "value": "Items.GLOW_INK_SAC"
+      },
+      {
+        "value": "Items.GLOW_INK_SAC"
+      },
+      {
+        "value": "Items.GLOW_INK_SAC"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.GLOW_SQUID_SPAWN_EGG"
+    },
+    "name": "glow_swuid",
+    "namespace": "mod"
+  }
+}
