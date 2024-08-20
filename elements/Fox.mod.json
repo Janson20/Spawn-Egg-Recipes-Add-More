@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "ser",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "Items.WHEAT"
+      },
+      {
+        "value": "Items.WHEAT"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.LEATHER"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.FOX_SPAWN_EGG"
+    },
+    "name": "fox",
+    "namespace": "mod"
+  }
+}

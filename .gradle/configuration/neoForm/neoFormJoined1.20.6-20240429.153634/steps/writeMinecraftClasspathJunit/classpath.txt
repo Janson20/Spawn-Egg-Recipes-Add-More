@@ -109,5 +109,5 @@ C:\Users\liuji\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\
 C:\Users\liuji\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.5\64b5a1fc8c1b15ed2efd6a063e976bc8d3dc5ffe\asm-util-9.5.jar
 C:\Users\liuji\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.5\dc6ea1875f4d64fbc85e1691c95b96a3d8569c90\asm-9.5.jar
 C:\Users\liuji\.mcreator\gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.9\7cf2726fdcfbc8610f9a71fb3ed639871f315340\slf4j-api-2.0.9.jar
-E:\No_Chinese_Coding\Spawn_egg_recipes\.gradle\repositories\ng_dummy_ng\net\minecraft\client\1.20.6\client-1.20.6-client-extra.jar
-E:\No_Chinese_Coding\Spawn_egg_recipes\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\20.6.117\neoforge-20.6.117.jar
+D:\No_Chinese_Coding\Spawn_egg_recipes\.gradle\repositories\ng_dummy_ng\net\minecraft\client\1.20.6\client-1.20.6-client-extra.jar
+D:\No_Chinese_Coding\Spawn_egg_recipes\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\20.6.117\neoforge-20.6.117.jar

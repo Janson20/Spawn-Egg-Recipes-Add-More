@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ser",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "cde",
+    "cee"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:egg"
+    },
+    "b": {
+      "item": "minecraft:wheat"
+    },
+    "c": {
+      "item": "minecraft:feather"
+    },
+    "d": {
+      "item": "minecraft:diamond_block"
+    },
+    "e": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "id": "minecraft:fox_spawn_egg",
+    "count": 4
+  }
+}

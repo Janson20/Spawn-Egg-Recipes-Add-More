@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ser",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bamboo"
+    },
+    "b": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "id": "minecraft:panda_spawn_egg",
+    "count": 1
+  }
+}
